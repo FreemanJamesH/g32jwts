@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="app">
   <head>
     <meta charset="utf-8">
     <title>g32jwts</title>
+    <script src="https://code.angularjs.org/1.5.8/angular.js"></script>
+    <script src="./javascripts/module.js" charset="utf-8"></script>
+    <script src="./javascripts/controller.js" charset="utf-8"></script>
   </head>
-  <body>
+  <body ng-controller="main">
     <h1>Welcome to JWTs</h1>
+    <h3>This should say pineapple: {{test}}</h3>
   </body>
 </html>
