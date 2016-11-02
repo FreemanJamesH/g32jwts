@@ -21,14 +21,14 @@ app.config(function($stateProvider, $urlRouterProvider) {
 
   .state('signup', {
     url: '/signup',
-    templateUrl: '../partials/auth/signup.html',
-    controller:'auth'
+    templateUrl: '../partials/userAuth/signup.html',
+    controller:'userAuth'
   })
 
   .state('login', {
     url: '/login',
-    templateUrl: '../partials/auth/login.html',
-    controller: 'auth'
+    templateUrl: '../partials/userAuth/login.html',
+    controller: 'userAuth'
   })
 
 
