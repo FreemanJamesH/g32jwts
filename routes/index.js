@@ -1,7 +1,7 @@
-var express = require('express');
-var router = express.Router();
-var knex = require('../db/knex')
-var bcrypt = require('bcrypt')
+const express = require('express');
+const router = express.Router();
+const knex = require('../db/knex')
+const bcrypt = require('bcrypt')
 
 /* GET home page. */
 router.post('/signup', function(req, res, next) {
